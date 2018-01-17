@@ -6,9 +6,9 @@ a clean slate. It then creates a new table called 'Counts' to replace
 it. 
 
 When prompted for file name, input the local filename "mbox-short.txt"
-sans quotes. The script will read through the file gathering data and
-then execute an 'INSERT' command to add the data to the local database
-file.
+sans quotes. The script will read through the file gathering email domain
+or 'org' data and then execute an 'INSERT' command to add the data to the 
+local database file.
 
 Finally, the script executes a "SELECT' statement to return the count
 for each line containing 'From: ' and the number of times each email 
