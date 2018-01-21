@@ -2,7 +2,7 @@
 generate three random numbers.
 if one of the numbers is 5, break
 the loop.
- '''
+'''
 import random
 
 print "Lucky Numbers! 3 numbers will be generated."
