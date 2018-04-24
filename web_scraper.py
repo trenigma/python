@@ -25,7 +25,7 @@ def url_to_soup(start):
 # from the main page, locate all the links for the subpages
 def get_subpage_reports(report):
     subpages = []
-    for link in report.find_all(href=re.compile('/<subpage')):
+    for link in report.find_all(href=re.compile('/<subpage>')):
         subpages.append(link.get('href'))
     return subpages
 
